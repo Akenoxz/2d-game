@@ -1,4 +1,4 @@
-# My First Bevy Game
+# 2d medieval themed game
 
 A 2D game built with Rust and Bevy.
 
