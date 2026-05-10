@@ -5,13 +5,13 @@ use crate::components::Player;
 pub fn move_player(mut query: Query<&mut Transform, With<Player>>, keyboard: Res<ButtonInput<KeyCode>>, time: Res<Time>) {
     let speed = 200.0;
     for mut transform in &mut query {
-        if keyboard.pressed(KeyCode::ArrowRight) {
+        if keyboard.pressed(KeyCode::KeyD) {
             transform.translation.x += speed * time.delta_secs();
-        } else if keyboard.pressed(KeyCode::ArrowLeft) {
+        } else if keyboard.pressed(KeyCode::KeyA) {
             transform.translation.x -= speed * time.delta_secs();
-        } else if keyboard.pressed(KeyCode::ArrowDown) {
+        } else if keyboard.pressed(KeyCode::KeyS) {
             transform.translation.y -= speed * time.delta_secs();
-        } else if keyboard.pressed(KeyCode::ArrowUp) {
+        } else if keyboard.pressed(KeyCode::KeyW) {
             transform.translation.y += speed * time.delta_secs();
         }
     }
