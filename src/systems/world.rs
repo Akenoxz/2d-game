@@ -5,6 +5,7 @@ use crate::components::Player;
 const WORLD_HEIGHT: f32 = 540.;
 const WORLD_WIDTH: f32 = 960.;
 
+// gives mutable access to the transform of every entity that has the player component
 pub fn world_limit(mut player_query: Query<&mut Transform, With<Player>>) {
     let mut player_transform = match player_query.single_mut() {
         Ok(transform) => transform,

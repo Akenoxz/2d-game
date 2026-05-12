@@ -7,8 +7,8 @@ mod systems;
 
 fn main() {
     App::new()
-        .add_plugins(DefaultPlugins)
+        .add_plugins(DefaultPlugins.set(ImagePlugin::default_nearest()))
         .add_systems(Startup, player::setup)
-        .add_systems(Update, (player::move_player, camera::update_camera, world::world_limit))
+        .add_systems(Update, (player::move_player, camera::update_camera, world::world_limit.after(player::move_player), player::execute_animations))
         .run();
 }
