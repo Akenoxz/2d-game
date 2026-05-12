@@ -17,7 +17,5 @@ cargo run
 
 Strictly made for learning purposes
 
-
-https://github.com/user-attachments/assets/36b2b567-4c82-4e4f-b1d6-84b08be9b564
-
-
+## Current Gameplay
+<img width="640" height="360" alt="demo" src="https://github.com/user-attachments/assets/d7caf48c-299f-4ee4-8b1b-8e9f469f92ff" />
