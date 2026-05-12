@@ -1,6 +1,7 @@
 # 2d medieval themed game
 
 A 2D game built with Rust and Bevy.
+Assets are AI generated or taken from the web and free to use
 
 ## Run
 
@@ -15,4 +16,8 @@ cargo run
 ## Purpose
 
 Strictly made for learning purposes
-<img width="1282" height="740" alt="image" src="https://github.com/user-attachments/assets/8142581e-65c3-4909-9536-e549bb742f44" />
+
+
+https://github.com/user-attachments/assets/36b2b567-4c82-4e4f-b1d6-84b08be9b564
+
+
