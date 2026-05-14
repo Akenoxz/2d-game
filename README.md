@@ -2,6 +2,7 @@
 
 A 2D game built with Rust and Bevy.
 Assets are AI generated or taken from the web and free to use
+- features to come : player animations and procedural world generation 
 
 ## Run
 
